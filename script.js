@@ -1,1 +1,3 @@
-console.log("Kais Deals Bot Website Loaded");
+console.log("Elie Deals Affiliate System Loaded");
+
+// future upgrade: tracking clicks / analytics
