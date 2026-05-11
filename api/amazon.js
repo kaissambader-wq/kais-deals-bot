@@ -15,12 +15,11 @@ const redirectLink =
   return res.json({
     success: true,
     source: 'amazon',
-    deals: [
-      {
-        title: `Best ${q}`,
-        price: 'See Amazon offers',
-        link: url,
-      },
-    ],
+deals: [
+  {
+    title: `Best ${q} Deals`,
+    link: redirectLink
+  }
+]
   });
 }
